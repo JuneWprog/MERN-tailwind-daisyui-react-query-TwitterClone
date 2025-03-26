@@ -1,14 +1,75 @@
 ﻿# MERN-tailwind-daisyui-react-query-TwitterClone
 ## Tech Stack
 ### MERN 
+
 ### style: tailwind@3   
-data:image/png;base64,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
-
-### daisyui@4 
-<img href="data:image/png;base64,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">
-
+### daisyui@4  UI Components
+![images](https://github.com/user-attachments/assets/86729e54-d8cb-42f7-8b58-a9101a4cda43)
 ### React-query
-<img href="data:image/png;base64,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">
+![0_uDVm_lpP4hH14Uli](https://github.com/user-attachments/assets/a24bee97-b6e2-4b6d-a597-976945b58963)
+
+### Authentication and Authorization
+#### JSON Web Token jwt
+- **Purpose:** Used for generating and verifying tokens for authentication.  
+- **Why Use It:** Securely transmit data between parties as a JSON object using a token. Useful for user authentication and authorization.  
+- **Common Usage:**  
+  - Generate JWT upon login.
+  - Verify JWT to authenticate protected routes.
+####  bcrypt**  
+- **Purpose:** Used for hashing passwords securely.  
+- **Why Use It:** Password hashing ensures that even if your database is compromised, user passwords remain safe.  
+- **Common Usage:**  
+  - Hash a password before storing it in the database.
+  - Compare a plaintext password with a hashed password during login.  
+
+###  cloudinary**  
+- **Purpose:** A cloud-based media management service.  
+- **Why Use It:** Efficiently store, optimize, and manage images, videos, and other media. Ideal for image uploads in web apps.  
+- **Common Usage:**  
+  - Upload and store images.
+  - Generate optimized image URLs.
+  - Perform transformations like resizing or applying filters.  
+- **Example:**  
+  ```javascript
+  import cloudinary from 'cloudinary';
+
+  cloudinary.config({
+    cloud_name: 'your-cloud-name',
+    api_key: 'your-api-key',
+    api_secret: 'your-api-secret',
+  });
+
+  const result = await cloudinary.uploader.upload('path/to/image.jpg');
+  console.log(result.url); // URL of uploaded image
+  ```
+
+---
+
+###  cookie-parser**  
+- **Purpose:** Middleware to parse cookies in a Node.js application.  
+- **Why Use It:** Useful for handling cookies sent from the client, often for storing authentication tokens or session data.  
+- **Common Usage:**  
+  - Read cookies from incoming HTTP requests.
+  - Set or modify cookies in the response.  
+- **Example:**  
+  ```javascript
+  import express from 'express';
+  import cookieParser from 'cookie-parser';
+
+  const app = express();
+  app.use(cookieParser());
+
+  app.get('/', (req, res) => {
+    console.log(req.cookies); // Access cookies from request
+    res.cookie('token', '123456', { httpOnly: true });
+    res.send('Cookie set!');
+  });
+
+  app.listen(3000, () => console.log('Server running on port 3000'));
+  ```
+
+---
+
 
 
 Some Features:
@@ -123,3 +184,131 @@ CLOUDINARY_CLOUD_NAME=""
 CLOUDINARY_API_KEY=""
 CLOUDINARY_API_SECRET=""
 ```
+
+### jwt
+- **Example:**  
+  ```javascript
+  import jwt from 'jsonwebtoken';
+
+  const secretKey = 'yourSecretKey';
+  const payload = { userId: 123 };
+
+  // Generate a JWT token
+  const token = jwt.sign(payload, secretKey, { expiresIn: '1h' });
+
+  // Verify token
+  const decoded = jwt.verify(token, secretKey);
+  console.log(decoded); // { userId: 123, iat: ..., exp: ... }
+  ```
+JWT (**JSON Web Token**) uses **signing** rather than traditional hashing or encryption.
+
+### 🔎 **How JWT Generates a Token**
+JWT consists of **three parts**:
+1. **Header** → Contains metadata (e.g., algorithm, token type).
+2. **Payload** → Contains data (e.g., user info, expiration).
+3. **Signature** → Ensures data integrity using a secret key.
+
+The structure looks like this:
+```
+HEADER.PAYLOAD.SIGNATURE
+```
+Each section is **Base64 URL encoded** for easy transport.
+
+---
+
+### ⚙️ **Is JWT Using Hashing or Encryption?**
+
+- **JWT does not encrypt data** by default.  
+  - The payload (containing user data) is **not hidden**. It’s only **encoded**, meaning it can be decoded using Base64.  
+  - **Never store sensitive information (like passwords) in a JWT.**
+
+- **JWT uses signing, not hashing for integrity**  
+  - JWT uses an algorithm (e.g., **HS256** or **RS256**) to **sign** the token using a **secret key**.  
+  - This ensures the token is **tamper-proof**. If the data changes, the signature won’t match, and the token will be rejected.  
+  - **HS256** = HMAC + SHA256 (Symmetric)  
+  - **RS256** = RSA + SHA256 (Asymmetric)  
+
+---
+
+### 🚀 **How JWT Generation Works**
+Here’s the step-by-step process using **HS256** (Symmetric signing):
+
+1. **Create Header**  
+```json
+{
+  "alg": "HS256",
+  "typ": "JWT"
+}
+```
+
+2. **Create Payload**  
+```json
+{
+  "userId": 123,
+  "role": "admin",
+  "exp": 1713800000
+}
+```
+`exp` is an expiration timestamp.
+
+3. **Sign the Token**  
+- Using the formula:
+```
+HMACSHA256(Base64UrlEncode(header) + "." + Base64UrlEncode(payload), secret)
+```
+
+4. **Generate JWT**  
+You’ll get a token like this:
+```
+### ⚡ **Verifying JWT**
+When the server receives a JWT:
+1. It decodes the header and payload.
+2. It **recalculates the signature** using the header, payload, and secret key.
+3. If the recalculated signature matches the provided signature, the token is **valid**.
+4. If the signature doesn’t match or the token has expired, it’s rejected.
+
+---
+
+### 🔔 **In Summary**
+- ✅ JWT uses **signing** (e.g., HS256) for integrity, not encryption for confidentiality.  
+- ✅ Data inside JWT is only **Base64 encoded** (not encrypted).  
+- ✅ **Do not store sensitive data** (like passwords) in a JWT.  
+- ✅ JWT can be verified using the secret key (for HS256) or a public key (for RS256).  
+### Security Hazard:
+❗ **Is Decoding a JWT a Security Risk?**
+- **Yes, if sensitive data is stored in the payload.**
+  - JWT is **not encrypted**, so any sensitive information (like passwords, tokens, or private keys) can be exposed if included in the payload.
+- **No, if it’s just basic data like userId or role.**
+  - JWTs are often used to store non-sensitive data like `userId` and `role`, which is generally safe.
+
+🔔 **Best Practices to Keep JWTs Secure**:
+1. **Never store sensitive information in a JWT** (e.g., passwords, payment info).
+2. **Use HTTPS** to prevent MITM (Man-in-the-Middle) attacks.
+3. **Set expiration (`exp`)** to limit the token’s validity.
+4. **Sign the JWT securely** using a strong secret key.
+5. **Verify tokens on the server** using `jwt.verify()` before granting access.
+
+
+
+
+
+###  bcrypt**  
+- **Purpose:** Used for hashing passwords securely.  
+- **Why Use It:** Password hashing ensures that even if your database is compromised, user passwords remain safe.  
+- **Common Usage:**  
+  - Hash a password before storing it in the database.
+  - Compare a plaintext password with a hashed password during login.  
+- **Example:**  
+  ```javascript
+  import bcrypt from 'bcrypt';
+
+  const saltRounds = 10;
+  const password = 'userPassword123';
+
+  // Hashing a password
+  const hashedPassword = await bcrypt.hash(password, saltRounds);
+
+  // Compare password
+  const isMatch = await bcrypt.compare(password, hashedPassword);
+  console.log(isMatch); // true if matched
+### 
