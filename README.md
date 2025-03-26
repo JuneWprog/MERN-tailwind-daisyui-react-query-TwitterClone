@@ -1,14 +1,12 @@
 ﻿# MERN-tailwind-daisyui-react-query-TwitterClone
+ ![2025-03-25_201053](https://github.com/user-attachments/assets/4e389e57-46f4-4190-bed2-3724468de580)
+
 ## Tech Stack
 ### MERN 
-
 ### style: tailwind@3   
 ### daisyui@4  UI Components
-![images](https://github.com/user-attachments/assets/86729e54-d8cb-42f7-8b58-a9101a4cda43)
 ### React-query
-![0_uDVm_lpP4hH14Uli](https://github.com/user-attachments/assets/a24bee97-b6e2-4b6d-a597-976945b58963)
-
-### Authentication and Authorization
+### Authentication and Authorization:
 #### JSON Web Token jwt
 - **Purpose:** Used for generating and verifying tokens for authentication.  
 - **Why Use It:** Securely transmit data between parties as a JSON object using a token. Useful for user authentication and authorization.  
@@ -67,10 +65,6 @@
 
   app.listen(3000, () => console.log('Server running on port 3000'));
   ```
-
----
-
-
 
 Some Features:
 
